@@ -1,12 +1,11 @@
 'use strict'
 const path = require('path')
-const defaultSettings = require('./src/settings.js')
 
 function resolve(dir) {
   return path.join(__dirname, dir)
 }
 
-const name = defaultSettings.title || '内容管理系统' // 标题
+const name = '官方网站' // 标题
 
 const port = process.env.port || process.env.npm_config_port || 80 // 端口
 

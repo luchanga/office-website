@@ -32,8 +32,8 @@ npm run build:prod
 ## 依赖说明
 
 ```bash
-clipboard：
-file-saver：
+clipboard：拷贝文字
+file-saver：文件导出
 js-beautify：美化代码，代码生成时用到
 fuse.js：模糊查询，顶部搜索区域用到
 js-cookie：操作cookie，登录注销用到
